@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Academy Choucair</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Academy Choucair</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Academy Choucair</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">43.343s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Search for a automation course"></a>
+<h3 class="failures">Search for a automation course</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PAINF14', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\soporte\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9349974dbe0140c723a3a06e4c87ff04
+*** Element info: {Using=id, value=password}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:221)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1146)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:811)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget.performAs(EnterValueIntoTarget.java:18)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$ByteBuddy$2jkMaRHF.performAs$accessor$W41HszOA(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$ByteBuddy$2jkMaRHF.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.utes.proyecto.tasks.Search.performAs(Search.java:32)
+	at co.com.utes.proyecto.tasks.Search$ByteBuddy$R2cTstRn.performAs$accessor$8FdE0Ypq(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at co.com.utes.proyecto.tasks.Search$ByteBuddy$R2cTstRn.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.utes.proyecto.stepdefinitions.TheLargestCommunityStepDefinitions.heSearchForTheCityPanamaOnTheutestPlatform(TheLargestCommunityStepDefinitions.java:37)
+	at ✽.he search for the City Panamá on the utest platform(src/test/resources/features/TheLargestCommunity.feature:9)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Search for a automation course</td>
+<td class="failures">43.343s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@75526269
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5aef19d5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@29c34114
+ene. 28, 2022 5:32:33 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 11836
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ene. 28, 2022 5:32:37 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@275c4679
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@64233b18
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6dd5d29f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1e7fe478
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7f9726ad
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4ddd4c0d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@75b73c27
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@77ddc2ef
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5f983dae
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3803a94e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@55c1c954
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@65899657
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@32dde3db
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@634c4ae8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@54744455
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]], When he search for the City Panamá on the utest platform [Jesus search [Jesus clicks on Button City]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@760fbc65
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]], When he search for the City Panamá on the utest platform [Jesus search [Jesus clicks on Button City, Jesus enters 'Panamá' into Entry City]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@73bd6e30
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]], When he search for the City Panamá on the utest platform [Jesus search [Jesus clicks on Button City, Jesus enters 'Panamá' into Entry City, Jesus clicks on Button City2]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1429650f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]], When he search for the City Panamá on the utest platform [Jesus search [Jesus clicks on Button City, Jesus enters 'Panamá' into Entry City, Jesus clicks on Button City2, Jesus enters '507' into Entry Postal Code]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6a3a70e5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]], When he search for the City Panamá on the utest platform [Jesus search [Jesus clicks on Button City, Jesus enters 'Panamá' into Entry City, Jesus clicks on Button City2, Jesus enters '507' into Entry Postal Code, Jesus clicks on Button Next: Devices]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6dac5ca
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]], When he search for the City Panamá on the utest platform [Jesus search [Jesus clicks on Button City, Jesus enters 'Panamá' into Entry City, Jesus clicks on Button City2, Jesus enters '507' into Entry Postal Code, Jesus clicks on Button Next: Devices, Jesus clicks on Button Next: Last Step]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@685e0c79
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1c55655c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]], When he search for the City Panamá on the utest platform [Jesus search [Jesus clicks on Button City, Jesus enters 'Panamá' into Entry City, Jesus clicks on Button City2, Jesus enters '507' into Entry Postal Code, Jesus clicks on Button Next: Devices, Jesus clicks on Button Next: Last Step, Jesus enters 'Sanchezyeyo1996%' into Entry Password]], Then he finds the country the Panama
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]], When he search for the City Panamá on the utest platform [Jesus search [Jesus clicks on Button City, Jesus enters 'Panamá' into Entry City, Jesus clicks on Button City2, Jesus enters '507' into Entry Postal Code, Jesus clicks on Button Next: Devices, Jesus clicks on Button Next: Last Step, Jesus enters 'Sanchezyeyo1996%' into Entry Password]], Then he finds the country the Panama]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Search for a automation course:Given than Jesus wants to learn automation at the academy chourcair [Jesus open up [Jesus opens the The largest community page], Jesus login [Jesus clicks on Button tha shows us the form to Join Today, Jesus enters 'Jesus' into First Name Entry, Jesus enters 'Caballero' into Entry of the first surname, Jesus enters 'jesuscaballero1001@gmail.com' into Entry email, Jesus clicks on ButtonMONTH, Jesus clicks on Button MONTH2, Jesus clicks on Button BIRTHDAY, Jesus clicks on Button BIRTHDAY2, Jesus clicks on Button YEAR, Jesus clicks on Button YEAR2, Jesus clicks on Button Next: Location]], When he search for the City Panamá on the utest platform [Jesus search [Jesus clicks on Button City, Jesus enters 'Panamá' into Entry City, Jesus clicks on Button City2, Jesus enters '507' into Entry Postal Code, Jesus clicks on Button Next: Devices, Jesus clicks on Button Next: Last Step, Jesus enters 'Sanchezyeyo1996%' into Entry Password]], Then he finds the country the Panama]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Search for a automation course
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Jesus enters 'Sanchezyeyo1996%' into Entry Password
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such window: target window already closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 01/28/2022 5:33:19 p. m.</p>
+</div>
+</div>
+</body>
+</html>
