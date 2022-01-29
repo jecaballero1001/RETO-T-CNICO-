@@ -25,7 +25,7 @@ public class Login implements Task {
         actor.attemptsTo(Click.on(theLargestCommunityPageLoginPage.BUTTON_JOIN),
                 Enter.theValue("Jesus").into(theLargestCommunityPageLoginPage.INPUT_FIRSTNAME),
                 Enter.theValue("Caballero").into(theLargestCommunityPageLoginPage.INPUT_LASTNAME),
-                Enter.theValue("jesuscaballero1001@gmail.com").into(theLargestCommunityPageLoginPage.INPUT_EMAIL),
+                Enter.theValue("jesuscaballero10016@gmail.com").into(theLargestCommunityPageLoginPage.INPUT_EMAIL),
                 Click.on(theLargestCommunityPageLoginPage.BUTTON_MONTH),
                 Click.on(theLargestCommunityPageLoginPage.BUTTON_MONTH2),
                 Click.on(theLargestCommunityPageLoginPage.BUTTON_BIRTHDAY),
